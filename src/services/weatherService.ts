@@ -40,7 +40,7 @@ export const fetchWeather = async (city: string) => {
       </table>
       `;
 
-      await sendMail(table);
+      //await sendMail(table);
     }
 
     return saved;
